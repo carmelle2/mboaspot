@@ -52,7 +52,7 @@ public class AvisService implements AvisInterface {
             throw new RuntimeException("Erreur lors de l'ajout de l'avis: " + e.getMessage());
         }
     }
-
+//zefe
     @Override
     public List<AvisDTO> listerAvis() {
         logger.info("Récupération de la liste des avis");
